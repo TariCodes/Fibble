@@ -9,10 +9,10 @@
     <meta name="keywords" content="learn, creative, digital, skill">
 
     <!---------------- FAVICON/FONT AWESOME --------------------->
+
+
     <link rel="shortcut icon" href="/image/icons/f-ico.png" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
     <!---------------- CUSTOM CSS --------------------->
     <link rel="stylesheet" href="css/style.css">
@@ -22,30 +22,29 @@
 
 <body id="top">
 
+    <!---------------- HEADER SECTION --------------------->
 
+    <header id="header">
 
-    <!---------------- NAVIGATION SECTION --------------------->
+        <nav class="navbar">
+            <div class="container">
 
+                <div class="title">
+                    <a style="color: #fff;" href="home.html" class="brand">
+                        <span>Fibble</span>
+                    </a>
+                </div>
 
+                <button id="nav-toggler">
+                    <i class="fas fa-bars"></i>
+                </button>
 
-    <nav class="navbar" data-navbar>
-        <div class="container">
-            <div class="title" data-title>
-                <a href="home.html" class="brand">
-                    <span>Fibble</span>
-                </a>
-            </div>
-            <button class="menu-open" data-menu-open>
-                <i class="fas fa-bars"></i>
-            </button>
-
-            <div class="nav-items">
-                <ul>
+                <ul class="nav-items">
                     <li>
-                        <a href="#home" class="active" tabindex="2">Home</a>
+                        <a href="#home">Home</a>
                     </li>
                     <li>
-                        <a href="#courses" tabindex="3">Courses</a>
+                        <a href="#courses">Courses</a>
                     </li>
                     <li>
                         <a href="#">Pricing</a>
@@ -57,132 +56,125 @@
                         <a href="#community">Community</a>
                     </li>
                     <li>
-                        <a href="#contact" tabindex="4">Contact</a>
+                        <a href="#contact">Contact</a>
                     </li>
                     <li>
-                        <a href="sign-up.php" tabindex="5">
-                            <span>Sign up</span>
+                        <a href="#">
+                            <span>Log In</span>
                         </a>
                     </li>
                     <li>
-                        <a href="sign-in.php" tabindex="6">
-                            <span>Sign in</span>
+                        <a href="#" id="signup">
+                            <span>Sign Up</span>
                         </a>
                     </li>
                 </ul>
             </div>
-        </div>
-    </nav>
-
-
-
-
-    <main>
+        </nav>
 
 
         <!---------------- HERO SECTION --------------------->
 
-
-
         <section class="hero" id="#home">
             <div class="container grid">
                 <div class="introduction">
-                    <h1 class="hero-title">Learn A
+                    <h1 id="hero-title">Learn A
                         <div class="animation">
-                            <span>creative</span>
+                            <span id="text1">creative</span>
                             <span id="digital">Digital</span>
                             skill
                         </div>
                     </h1>
-                    <p class="hero-subtitle">
+                    <p id="hero-description">
                         Are you a creative and digital native who wants to make a difference in the world? If so,
                         you're in the right place!.
-                        We're looking for people who are passionate about using their
-                        skills to solve problems and create new experiences.
                         We offer a supportive environment where you can learn and grow,
                         and we'll give you the tools and resources you need to succeed.
                         We're also committed to diversity and inclusion,
                         so we welcome people from all backgrounds.
                         If you're ready to get up and on it, <strong>join us today</strong>!.
                     </p>
-                    <a class="btn btn-outline" href="#" tabindex="7">Enroll Now</a>
+                    <a class="btn btn-outline" href="#">Enroll Now</a>
                 </div>
 
-                <img src="./image/hero-img.png" alt="hero-img" id="hero-img"
-                    aria-describedby="a girl next to a man both looking at a laptop smiling">
+                <img src="./image/hero-img.png" alt="a girl sitting next to a man both looking at a laptop smiling"
+                    id="illustration" aria-describedby="a girl sitting next to a man both looking at a laptop smiling"
+                    loading="lazy-loading">
 
             </div>
         </section>
+    </header>
 
 
-
-
+    <main>
         <!---------------- COURSES SECTION --------------------->
-
-
-
         <section class="courses" id="courses">
-            <div class="container">
+            <!-- <div class="container"> -->
 
+            <div class="section-header">
                 <h2 class="section-title">
-                    <hr><span>Our Courses</span>
-                    <hr>
+                    <span>Our Courses</span>
                 </h2>
                 <p class="section-subtitle">
                     Choose and develop yourself from our wide range of courses, and catch up on
                     the latest gigs and trends
                 </p>
+            </div>
 
-                <div class="course-items grid grid-3">
-
-
+            <div class="course-items">
+                <div class="container grid grid-3">
                     <div class="card">
                         <img src="./image/ui_ux_design.png" alt="ui/ux design">
-                        <div>
+                        <div class="card-body">
                             <h3>UI/UX design</h3>
-                            <a href="#" tabindex="8">Add to cart</a>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, aliquam?</p>
                         </div>
                     </div>
 
                     <div class="card">
                         <img src="./image/graphic_design.png" alt="">
-                        <div>
+                        <div class="card-body">
                             <h3>Graphic design</h3>
-                            <a href="#" tabindex="9">Add to cart</a>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora tenetur repellendus
+                                architecto eum eos fuga.</p>
                         </div>
                     </div>
 
                     <div class="card">
                         <img src="./image/web_design.png" alt="">
-                        <div>
+                        <div class="card-body">
                             <h3>Web design</h3>
-                            <a href="#" tabindex="10">Add to cart</a>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus enim blanditiis cum?
+                            </p>
                         </div>
                     </div>
 
                     <div class="card">
                         <img src="./image/wireframe_design.png" alt="">
-                        <div>
+                        <div class="card-body">
                             <h3>wireframe design</h3>
-                            <a href="#" tabindex="10">Add to cart</a>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo illum quo ullam!</p>
                         </div>
                     </div>
                     <div class="card">
                         <img src="./image/product_deigner.png" alt="">
-                        <div>
+                        <div class="card-body">
                             <h3>Product design</h3>
-                            <a href="#" tabindex="10">Add to cart</a>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati minima quaerat omnis
+                                architecto?</p>
                         </div>
                     </div>
                     <div class="card">
                         <img src="./image/programming1.png" alt="">
-                        <div>
+                        <div class="card-body">
                             <h3>Android Development</h3>
-                            <a href="#" tabindex="10">Add to cart</a>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur laborum adipisci ea
+                                accusamus voluptas!</p>
                         </div>
                     </div>
                 </div>
             </div>
+            <!-- </div> -->
         </section>
 
 
@@ -199,7 +191,7 @@
                 journey to become a skilled creator.
             </p>
 
-            <ul class="">
+            <ul>
                 <div class="container grid">
                     <li class="card">
                         <img src="./image/instructor-1.jpg" alt="">
@@ -268,13 +260,17 @@
             <div class="container">
                 <h2 class="section-title">Here's what the community is saying about Fibble</h2>
 
-                <ul class=" grid grid-3">
-                    <li class="p-4">
+                <ul class="grid grid-3">
+
+                    <li class="review-content p-4">
+
                         <div class="review-header">
                             <img src="./image/pic-1.jpg">
+
                             <div class="flex-column">
                                 <span class="fw-bold">Isaac Dominic</span>
                                 <span>Introduction to Graphic Design</span>
+
                                 <div class="review-rating">
                                     <span><i class="fas fa-star"></i></span>
                                     <span><i class="fas fa-star"></i></span>
@@ -283,12 +279,12 @@
                                     <span><i class="fas fa-star-half"></i></span>
                                     (128,000 reviews)
                                 </div>
+
                                 <button class="btn show-review">Show review</button>
                             </div>
-
                         </div>
 
-                        <div class="review-contents">
+                        <div class="review-body" id="isaac-review">
                             <p class="comment-date"><time>11/14/22</time></p>
                             <blockquote class="comment">
                                 I'm so glad I decided to learn graphic design from Fibble.
@@ -300,7 +296,7 @@
                         </div>
                     </li>
 
-                    <li class="p-4">
+                    <li class="review-content p-4">
                         <div class="review-header">
                             <img src="./image/pic-2.jpg" alt="">
                             <div class="flex-column">
@@ -313,11 +309,12 @@
                                     <span><i class="fas fa-star"></i></span>
                                     <span><i class="fas fa-star"></i></span>
                                     (128,000 reviews)
-                                </div> <button class="btn show-review">Show review</button>
+                                </div>
+                                <button class="btn show-review">Show review</button>
                             </div>
                         </div>
 
-                        <div class="review-contents">
+                        <div class="review-body" id="semeya-review">
                             <p class="comment-date"><time>07/12/22</time></p>
                             <blockquote class="comment">
                                 I'm thrilled to be here at FIbble.
@@ -332,7 +329,7 @@
                         </div>
                     </li>
 
-                    <li class="p-4">
+                    <li class="review-content p-4">
                         <div class="review-header">
                             <img src="./image/pic-3.jpg" alt="">
                             <div class="flex-column">
@@ -345,11 +342,12 @@
                                     <span><i class="fas fa-star"></i></span>
                                     <span><i class="fas fa-star"></i></span>
                                     (128,000 reviews)
-                                </div> <button class="btn show-review">Show review</button>
+                                </div>
+                                <button class="btn show-review">Show review</button>
                             </div>
                         </div>
 
-                        <div class="review-contents">
+                        <div class="review-body" id="ashleigh-review">
                             <p class="comment-date"><time>11/18/21</time></p>
                             <blockquote class="comment">
                                 I really really love the way Kimberly breaks down each contents they are comprehensive
@@ -362,6 +360,8 @@
                             </blockquote>
                         </div>
                     </li>
+                </ul>
+                <button>Load More</button>
             </div>
         </section>
 
@@ -372,36 +372,61 @@
 
 
         <section class="mail" id="contact">
-            <div class="container">
-                <h2 class="section-title">Do well to reach us</h2>
-                <p class="section-subtitle">Send us a mail and we will reach back to you</p>
-                <div>
-                    <form method="post" action="fibble-form.php" autocomplete="off" id="form">
+            <h2 class="section-title">Do well to reach us</h2>
+            <p class="section-subtitle">Send us a mail and we will reach back to you</p>
+
+            <div class="container grid">
+                <div class="contact-body">
+                    <h2>Get in touch</h2>
+                    <p>Use our contact form for all information requests or contact us directly using the contact
+                        information below.</p>
+                    <p>Feel free to get in touch with us via email or phone</p>
+                    <hr>
+                    <div class="contact-details">
+                        <img src="./image/icons/location-icon.svg" alt="location-icon">
                         <div>
-                            <div class="form-control">
-                                <label for="contact-name">Name <span>*</span></label>
-                                <br>
-                                <input tabindex="11" type="text" name="contact-name" id="contact-name"
-                                    placeholder="Your Name" title="please fill out your name" required>
-                            </div>
-                            <div class="form-control">
-                                <label for="contact-mail">Email <span>*</span></label>
-                                <br>
-                                <input tabindex="12" type="email" name="contact-mail" id="contact-mail"
-                                    placeholder="Your email" title="please fill out your email address" required>
-                            </div>
+                            <h3>Our office Location</h3>
+                            <p>The interior design company
+                                <br> The courtyard, AI Quoz 1, Colorado, USA
+                            </p>
+                        </div>
+                    </div>
+                    <div class="contact-details">
+                        <img src="./image/icons/Phone-square-icon.svg" alt="phone-icon">
+                        <div>
+                            <h3>Phone (Landline)</h3>
+                            <p>+912 3 559 9809</p>
+                        </div>
+                    </div>
+                </div>
+
+                <form method="post" action="fibble-form.php" autocomplete="off" id="form">
+                    <div>
+                        <div class="form-control">
+                            <label for="contact-name">Name <span>*</span></label>
+                            <br>
+                            <input tabindex="11" type="text" name="contact-name" id="contact-name"
+                                placeholder="Your Name" title="please fill out your name" required>
                         </div>
                         <div class="form-control">
-                            <label for="message">Message</label>
+                            <label for="contact-mail">Email <span>*</span></label>
                             <br>
-                            <textarea tabindex="13" name="contact-message" id="message" cols="30" rows="20"
-                                placeholder="enter your message here" maxlength="255" title="type your message">
-                               </textarea>
+                            <input tabindex="12" type="email" name="contact-mail" id="contact-mail"
+                                placeholder="Your email" title="please fill out your email address" required>
                         </div>
-                    </form>
-                    <button class="btn msg-btn" tabindex="14" form="form">send a message</button>
-                </div>
+                    </div>
+                    <div class="form-control">
+                        <label for="message">Message</label>
+                        <br>
+                        <textarea tabindex="13" name="contact-message" id="message" cols="30" rows="20"
+                            placeholder="enter your message here" maxlength="255" title="type your message">
+                               </textarea>
+                    </div>
+                    <button class="btn msg-btn" tabindex="14">send a message</button>
+                </form>
+
             </div>
+
         </section>
     </main>
 
@@ -464,5 +489,8 @@
         </span>
     </div>
 </body>
+
+<script src="./js/jquery-3.6.1.min.js"></script>
+<script src="./js/main.js"></script>
 
 </html>

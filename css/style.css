@@ -663,10 +663,6 @@ form {
   margin-bottom: 10px;
 }
 
-.form-control textarea {
-  height: 20vh;
-}
-
 .form-control input,
 .form-control textarea {
   width: 100%;

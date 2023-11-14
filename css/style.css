@@ -101,6 +101,7 @@ ul {
   color: #fff;
   position: relative;
   background-image: url("../image/bg.jpg");
+  background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -181,7 +182,7 @@ ul {
     z-index: 50;
     top: 50%;
     right: 5%;
-    width: 38%;
+    width: 50%;
     line-height: 1.9;
     padding: 15px;
     text-align: center;

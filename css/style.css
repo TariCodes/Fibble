@@ -100,7 +100,7 @@ ul {
 #header {
   color: #fff;
   position: relative;
-  background: linear-gradient(-140deg, #96136a, #2d1783);
+  background-color: linear-gradient(-140deg, #96136a, #2d1783);
   background-image: url("../image/bg.jpg");
   background-position: center top;
   background-size: cover;

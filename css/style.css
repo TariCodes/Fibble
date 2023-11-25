@@ -98,7 +98,6 @@ ul {
 
 /* HEADER */
 #header {
-  color: #fff;
   position: relative;
   background-color: linear-gradient(-140deg, #96136a, #2d1783);
   background-image: url("../image/bg.jpg");

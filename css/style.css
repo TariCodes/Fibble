@@ -99,8 +99,8 @@ ul {
 /* HEADER */
 #header {
   position: relative;
-  background-color: linear-gradient(-140deg, #96136a, #2d1783);
-  background-image: url("../image/bg.jpg");
+  background-image:linear-gradient(-140deg, #96136a, #2d1783);
+  background: url("../image/bg.jpg");
   background-position: center top;
   background-size: cover;
   background-repeat: no-repeat;
@@ -610,8 +610,8 @@ ul {
 
 .mail {
   padding: 20px 0;
-  background: linear-gradient(10deg, #db89b9, #a505a5) center center no-repeat;
-  background-image:url('../image/mail-bg.jpg') ;
+  background:url('../image/mail-bg.jpg')  center center no-repeat;
+  background-image:linear-gradient(10deg, #db89b9, #a505a5);
   background-size: cover;
   color: #fff;
 }

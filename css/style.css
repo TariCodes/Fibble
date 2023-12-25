@@ -102,7 +102,7 @@ ul {
   position: relative;
   background-image:linear-gradient(-130deg, #be0982, #17055e);
   color: #ddd;
-  background: url("../image/bg.jpg");
+  /* background: url("../image/bg.jpg"); */
   background-position: center top;
   background-size: cover;
   background-repeat: no-repeat;

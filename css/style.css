@@ -630,6 +630,9 @@ ul {
   width: 35px;
 }
 
+div.contact-body {
+  padding-inline: 30px;
+}
 .contact-body h2,
 .contact-body p {
   margin-bottom: 15px;
@@ -673,6 +676,7 @@ form {
 .form-control input,
 .form-control textarea {
   width: 100%;
+  max-width: 350px;
   outline: none;
   resize: none;
 }

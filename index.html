@@ -27,8 +27,8 @@
         <nav class="navbar">
             <div class="container">
 
-                <div class="title">
-                    <a style="color: #fff;" href="home.html" class="brand">
+                <div class="brand-wrapper">
+                    <a style="color: #fff;" href="home.html" class="brand-name">
                         <span>Fibble Academy</span>
                     </a>
                 </div>
@@ -41,23 +41,25 @@
                     <li>
                         <a href="#home">Home</a>
                     </li>
-                    <li>
-                        <a href="#courses">Courses</a>
+                     <li>
+                        <a href="#">Learn</a>
                     </li>
                     <li>
                         <a href="#">Pricing</a>
                     </li>
                     <li>
-                        <a href="#tutors">Tutors</a>
+                        <a href="#">Resources</a>
                     </li>
                     <li>
-                        <a href="#community">Community</a>
+                        <a href="#">Blog</a>
                     </li>
                     <li>
-                        <a href="#contact">Contact</a>
+                        <a href="#">Contact</a>
                     </li>
+                </ul>
+                <ul class="registration">
                     <li>
-                        <a href="#">
+                        <a href="#" >
                             <span>Log In</span>
                         </a>
                     </li>
@@ -75,15 +77,16 @@
 
         <section class="hero" id="#home">
             <div class="container grid">
-                <div class="introduction">
-                    <h1 id="hero-title">Learn A
+                <div class="hero__contents">
+                    <h1 id="hero__title">
+                        Learn A
                         <div class="animation">
                             <span id="text1">creative</span>
                             <span id="digital">Digital</span>
                             skill
                         </div>
                     </h1>
-                    <p id="hero-description">
+                    <p class="hero__description">
                         Are you a creative and digital native who wants to make a difference in the world? If so,
                         you're in the right place!.
                         We offer a supportive environment where you can learn and grow,
@@ -92,11 +95,11 @@
                         so we welcome people from all backgrounds.
                         If you're ready to get up and on it, <strong>join us today</strong>!.
                     </p>
-                    <a class="btn btn-outline" href="#">Enroll Now</a>
+                    <a class="hero__btn btn btn-outline" href="#">Learn More</a>
                 </div>
 
                 <img src="./image/hero-img.png" alt="a girl sitting next to a man both looking at a laptop smiling"
-                    id="illustration" aria-describedby="a girl sitting next to a man both looking at a laptop smiling"
+                    class="hero__image" aria-describedby="a girl sitting next to a man both looking at a laptop smiling"
                     loading="lazy-loading">
 
             </div>
@@ -109,31 +112,31 @@
         <section class="courses" id="courses">
             <!-- <div class="container"> -->
 
-            <div class="section-header">
-                <h2 class="section-title">
+            <div class="courses-wrapper">
+                <h2 class="courses__subtitle">
                     <span>Our Courses</span>
                 </h2>
-                <p class="section-subtitle">
+                <p class="courses__description">
                     Choose and develop yourself from our wide range of courses, and catch up on
                     the latest gigs and trends
                 </p>
             </div>
 
-            <div class="course-items">
+            <div class="course__items-wrapper">
                 <div class="container grid grid-3">
                     <div class="card">
                         <img src="./image/ui_ux_design.png" alt="ui/ux design">
                         <div class="card-body">
-                            <h3>UI/UX design</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, aliquam?</p>
+                            <h3 class="card__main-title">UI/UX design</h3>
+                            <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, aliquam?</p>
                         </div>
                     </div>
 
                     <div class="card">
                         <img src="./image/graphic_design.png" alt="">
                         <div class="card-body">
-                            <h3>Graphic design</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora tenetur repellendus
+                            <h3 class="card__main-title">Graphic design</h3>
+                            <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora tenetur repellendus
                                 architecto eum eos fuga.</p>
                         </div>
                     </div>
@@ -141,8 +144,8 @@
                     <div class="card">
                         <img src="./image/web_design.png" alt="">
                         <div class="card-body">
-                            <h3>Web design</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus enim blanditiis cum?
+                            <h3 class="card__main-title">Web design</h3>
+                            <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus enim blanditiis cum?
                             </p>
                         </div>
                     </div>
@@ -150,23 +153,23 @@
                     <div class="card">
                         <img src="./image/wireframe_design.png" alt="">
                         <div class="card-body">
-                            <h3>Cyber Security</h3>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo illum quo ullam!</p>
+                            <h3 class="card__main-title">Cyber Security</h3>
+                            <p class="card__description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo illum quo ullam!</p>
                         </div>
                     </div>
                     <div class="card">
                         <img src="./image/product-design.png" alt="">
                         <div class="card-body">
-                            <h3>Digital Marketing</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati minima quaerat omnis
+                            <h3 class="card__main-title">Digital Marketing</h3>
+                            <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati minima quaerat omnis
                                 architecto?</p>
                         </div>
                     </div>
                     <div class="card">
                         <img src="./image/programming1.png" alt="">
                         <div class="card-body">
-                            <h3>Mobile Development</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur laborum adipisci ea
+                            <h3 class="card__main-title">Mobile Development</h3>
+                            <p class="card__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur laborum adipisci ea
                                 accusamus voluptas!</p>
                         </div>
                     </div>
